@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+    padding: 0;
+    background-color: #f8d854
+}
+
+.jumbotron {
+    width: 300px 100%;
+    border: 15px;
+    padding: 50px;
+    margin: 20px;
+}
+
+img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+
+.containerGrid {
+    display: grid;
+    background-color: none;
+    padding: 10px;
+    grid-template-columns: 25% 75%;
+}
+
+.navContainer {
+    width: 300px 100%;
+    border: 5px solid black;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: underline;
+}
+
+.flexcontainer {
+    display: flex;
+    width: 33%;
+    margin: 10px;
+    padding: 30px;
+}
+
+.mainNavigation {
+    display: flex;
+    justify-content: space-between;
+    align-items:center; 
+    padding: 30px 10%;
+    background-color: #52bdb4;
+}
+
+.myWork {
+    display: flex;
+    justify-content: center;
+    width: 300px 100%;
+    border: 15px solid black;
+    padding: 50px;
+    margin: 20px;
+}
+
+.mySkills {
+    display: flex;
+    justify-content: center;
+    width: 300px 100%;
+    border: 15px solid black;
+    padding: 50px;
+    margin: 20px;
+}
+
+.figmaLogo{
+    width: 33%;
+    margin: 10px;
+    padding: 30px;
+    grid-template-columns: 25% 75%;
+}
+
+.miroLogo{
+    width: 33%;
+    margin: 10px;
+    padding: 30px;
+}
+
+.adobeXdLogo {
+    width: 33%;
+    margin: 10px;
+    padding: 30px;
+}
+
+.myself {
+    display: flex;
+    justify-content: center;
+    width: 300px 100%;
+    border: 15px solid black;
+    padding: 50px;
+    margin: 20px;
+}
+
+.mySocials{
+    display: flex;
+    justify-content: center;
+    width: 300px 100%;
+    border: 15px solid black;
+    padding: 50px;
+    margin: 20px;
+}
+.footerNavigation {
+    display: flex;
+    justify-content: space-between;
+    align-items:center; 
+    padding: 30px 10%;
+}
+
+button{
+    background-color: #1b2f4e;
+    color: white;
+    border-radius: 20%;
+    width: 10px 10%;
+    padding: 5px;
+    margin: 15px;
+}
+.container {
+    display: flex;
+}
