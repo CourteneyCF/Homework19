@@ -71,12 +71,21 @@ img {
     padding: 50px;
     margin: 20px;
 }
+.skillsGrid {
+    display: grid;
+    background-color: none;
+    padding: 10px;  
+    grid-template-columns: 10% 30% 30% 30%;
+}
+
+.card {
+    width: 18rem;"
+}
 
 .figmaLogo{
     width: 33%;
     margin: 10px;
     padding: 30px;
-    grid-template-columns: 25% 75%;
 }
 
 .miroLogo{
