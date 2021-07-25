@@ -58,6 +58,13 @@ img {
     margin: 20px;
 }
 
+.workGrid {
+    display: grid;
+    background-color: none;
+    padding: 10px;  
+    grid-template-columns: 15% 42.5% 42.5%;
+}
+
 .mySkills {
     display: flex;
     justify-content: center;
